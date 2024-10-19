@@ -1,0 +1,9 @@
+appURL1: https://localhost/openshare/
+appURL2: https://tutorialsninja.com/demo/
+First_name: shry	
+last_name: upaday
+telephone_number: 879893232
+email: shryupaday@gmail.com
+password:abc@123
+confirm_password: abc@123
+execution_env=local
