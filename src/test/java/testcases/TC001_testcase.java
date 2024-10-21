@@ -18,20 +18,20 @@ public class TC001_testcase extends BaseClass
 public void verify_account_registration()
 {
 	
-	//logger.info("***********  Test case started  ***********");
+	logger.info("***********  Test case started  ***********");
 	
 	try {
 	HomePage hp=new HomePage(driver);
-	//logger.info("***********  Clicking on My account  ***********");
+	logger.info("***********  Clicking on My account  ***********");
 	hp.clickMyAccount();
 	hp.Register();
 	
 	AccountResgistration ar=new AccountResgistration(driver);
-	//logger.info("***********  Setting up first name  ***********");
+	logger.info("***********  Setting up first name  ***********");
 	ar.setfirstname(randomString().toUpperCase());
-	//logger.info("***********  Setting up last name  ***********");
+	logger.info("***********  Setting up last name  ***********");
 	ar.setLastname(randomString().toUpperCase());
-	//logger.info("***********  Setting up email ID  ***********");
+	logger.info("***********  Setting up email ID  ***********");
 	ar.setemailID(randomString()+"@gmail.com");
 	ar.settelephone(randomNumbers());
 	
@@ -41,7 +41,7 @@ public void verify_account_registration()
 	ar.setconfirmpassword(setpwd);
 
 	ar.checkprivacypolicy();
-	//logger.info("***********  Privacy policy checked  ***********");
+	logger.info("***********  Privacy policy checked  ***********");
 	ar.buttoncontinue();
 	String verificationMessage=ar.messageverification();
 	if(verificationMessage.equals("Your Account Has Been Created!"))

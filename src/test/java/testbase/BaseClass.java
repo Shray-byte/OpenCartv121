@@ -1,7 +1,7 @@
 package testbase;
 
 import java.time.Duration;
-import org.openqa.selenium.remote.CapabilityType;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -101,7 +101,7 @@ public Properties p;
 		Thread.sleep(4000);
 		driver.quit();
 	}
-	
+	//generating random values for first time register or sign-up
 	public String randomString()
 	{
 		String generatedString=RandomStringUtils.randomAlphabetic(7);
@@ -118,6 +118,7 @@ public Properties p;
 		String generatedNumber=RandomStringUtils.randomNumeric(10);
 		return (generatedString+"@"+generatedNumber);
 	}
+	//taking screenshot method for failed testcases
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());

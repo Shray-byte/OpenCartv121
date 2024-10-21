@@ -15,7 +15,7 @@
     <classes>
 	<!-- 	<class name="testcases.TC003_LoginDDT"/>-->
  <class name="testcases.TC001_testcase"/>
- <!--   <class name="testcases.TC002_testcase_Login"/> -->
+  <class name="testcases.TC002_testcase_Login"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

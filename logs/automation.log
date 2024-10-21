@@ -1,0 +1,13 @@
+09:01:36.120 [main] INFO  testcases.TC001_testcase - ***********  Test case started  ***********
+09:01:36.155 [main] INFO  testcases.TC001_testcase - ***********  Clicking on My account  ***********
+09:01:37.199 [main] INFO  testcases.TC001_testcase - ***********  Setting up first name  ***********
+09:01:37.327 [main] INFO  testcases.TC001_testcase - ***********  Setting up last name  ***********
+09:01:37.361 [main] INFO  testcases.TC001_testcase - ***********  Setting up email ID  ***********
+09:01:38.011 [main] INFO  testcases.TC001_testcase - ***********  Privacy policy checked  ***********
+09:01:50.941 [main] INFO  testcases.TC002_testcase_Login - ************ User is on login page *************
+09:01:51.700 [main] INFO  testcases.TC002_testcase_Login - ************ clicked on login button *************
+09:25:55.362 [main] INFO  stepDefinition.StepDefinition - ******* Browser is launched *******
+09:25:59.733 [main] INFO  stepDefinition.StepDefinition - ******* Homepage is launched *******
+09:26:03.916 [main] INFO  stepDefinition.StepDefinition - ******* Clicked on Myaccount *******
+09:26:05.712 [main] INFO  stepDefinition.StepDefinition - ******* clicked on login button *******
+09:26:05.768 [main] INFO  stepDefinition.StepDefinition - ******* Successfully logged in *******

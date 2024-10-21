@@ -19,13 +19,13 @@ public class TC002_testcase_Login extends BaseClass
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
 	    hp.loginmethod();
-	    
+	    logger.info("************ User is on login page *************");
 	    
 	    LoginPage lp=new LoginPage(driver);
 	    lp.setemailID(p.getProperty("email"));
 	    lp.setPassword(p.getProperty("password"));
 	    lp.buttonlogin();
-	    
+	    logger.info("************ clicked on login button *************");
 	    MyAccount ma=new MyAccount(driver);
 	    
 	    
